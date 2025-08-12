@@ -24,7 +24,7 @@ cd lemon-tmux
 chmod +x ~/battery.sh
 
 # 创建软链接
-ln -s {存放目录} ~
+ln -s {current_path}/.tmux.conf ~/.tmux.conf
 
 # 安装插件管理器
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
