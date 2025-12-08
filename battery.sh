@@ -41,7 +41,7 @@ get_battery_windows() {
             echo "🔋${battery}%"
         fi
     else
-        echo "⚡N/A"
+        echo "⚡Endless Energy"
     fi
 }
 
@@ -68,7 +68,7 @@ get_battery_macos() {
             echo "🔋${battery}%"
         fi
     else
-        echo "⚡N/A"
+        echo "⚡Endless Energy"
     fi
 }
 
@@ -96,7 +96,7 @@ get_battery_termux() {
             echo "🔋${battery}%"
         fi
     else
-        echo "⚡N/A"
+        echo "⚡Endless Energy"
     fi
 }
 
@@ -143,7 +143,7 @@ get_battery_linux() {
             echo "🔋${battery}%"
         fi
     else
-        echo "⚡N/A"
+        echo "⚡Endless Energy"
     fi
 }
 
@@ -162,10 +162,10 @@ get_battery_wsl() {
                 echo "🔋${battery}%"
             fi
         else
-            echo "⚡N/A"
+            echo "⚡Endless Energy"
         fi
     else
-        echo "⚡N/A"
+        echo "⚡Endless Energy"
     fi
 }
 
@@ -190,7 +190,7 @@ get_battery_info() {
             get_battery_wsl
             ;;
         *)
-            echo "⚡N/A"
+            echo "⚡Endless Energy"
             ;;
     esac
 }
